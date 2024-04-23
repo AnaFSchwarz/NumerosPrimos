@@ -33,7 +33,7 @@ const FormPage = () => {
             <Form k ={k} handleCalculatePrimes = {handleCalculatePrimes} handleInputChange={handleInputChange}/>
             {result && (
             <div className="result" style={{ textAlign: 'center' }}>
-                <p>Números primos menores que {result.k} são: {result.primeCount.join(', ')}</p>
+                <p>Existem {result.primeCount} números primos menores que {result.k}.</p>
             </div>
             )}
         </Paper>

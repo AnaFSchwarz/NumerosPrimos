@@ -34,7 +34,7 @@ const Historical = (props) => {
                 {historical && historical.map((consult, index) => (
                 <li key={index}>
                     <Typography variant="body1">
-                    Números primos menores que {consult.k} são: {consult.primeCount.join(', ')}
+                    Existem {consult.primeCount} números primos menores que {consult.k}. 
                     </Typography>
                 </li>
                 ))}
