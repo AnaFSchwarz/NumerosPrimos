@@ -1,18 +1,21 @@
-# Numeros Primos
+# Números Primos
 Este repositório contém a implementação de um projeto web que permite que o usuário insira um número inteiro k e calcule o número de inteiros positivos primos n menores que k. A aplicação também contém um histórico das últimas 10 consultas realizadas.
 
 ## Tecnologias utilizadas
 
 ### Front-end:
 - React.js
-- Material-UI para estilização
+- Material-UI: Uma biblioteca de componentes de interface do usuário para React baseada no Material Design.
 
 ### back-end:
 - Node.js
-- Express.js
+- Express.js: Um framework de aplicativo web para Node.js que simplifica a criação de APIs.
 
 ### banco de dados:
 - não tem (o histórico é mantido no backend)
+
+### outros
+- Axios: Uma biblioteca JavaScript para fazer solicitações HTTP do navegador ou Node.js.
 
 
 ## Intalação
